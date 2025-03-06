@@ -218,12 +218,6 @@ app.get("/api/search", async (req, res) => {
   }
 });
 
-app.listen(PORT, async () => {
-    await connectToDB();
-    console.log("Server started at PORT:", PORT)
-})
-
-
 app.get("/api/fetch-book/:id", async (req, res) => {
   try {
     const { id } = req.params;
@@ -339,3 +333,4 @@ app.listen(PORT, () => {
   connectToDB();
   console.log(`Server running on port ${PORT}`);
 });
+
