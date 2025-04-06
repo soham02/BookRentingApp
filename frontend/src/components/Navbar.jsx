@@ -17,7 +17,7 @@ const Navbar = () => {
         px-4 md:px-12 py-4 md:py-6">
             <Link to="/" >
                 <label className="font-semibold tracking-wider 
-                md:text-lg lg:text-xl cursor-pointer">♟️GamesRent♟️
+                md:text-lg lg:text-xl cursor-pointer">♟️BookRent♟️
                 </label>
             </Link>
             {user ? (
